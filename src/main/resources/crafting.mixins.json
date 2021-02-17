@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.crafting",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CraftingTableBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

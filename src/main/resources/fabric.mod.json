@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "crafting",
+  "version": "${version}",
+  "name": "Crafting Table Blockstates",
+  "description": "Crafting Table Blockstates",
+  "authors": [
+    "bunten"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/crafting/icon.png",
+  "environment": "*",
+  "mixins": [
+    "crafting.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
